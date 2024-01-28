@@ -27,4 +27,4 @@ python3 -m venv env
 source $HOME/zephyr_install/env/bin/activate
 cd $HOME
 echo source $HOME/zephyr_install/env/bin/activate >> $HOME/.bashrc
-pip install west
+pip3 install west
