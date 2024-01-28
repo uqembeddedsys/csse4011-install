@@ -1,5 +1,5 @@
 # Linux Installation for Zephyr RTOS
-# Based on 
+# Based on zephyr install script
 
 sudo apt-get update
 sudo apt-get install -y wget
