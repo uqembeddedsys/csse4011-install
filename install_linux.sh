@@ -23,7 +23,7 @@ sudo adduser $USER dialout		#Add user permissions for dialout
 #install zephyr west tool
 sudo apt install -y python3-venv    #install python virtual environment
 cd $HOME/zephyr_install
-python -m venv env
+python3 -m venv env
 source $HOME/zephyr_install/env/bin/activate
 cd $HOME
 echo source $HOME/zephyr_install/env/bin/activate >> $HOME/.bashrc
