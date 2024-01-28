@@ -11,7 +11,7 @@ sudo apt install --no-install-recommends git cmake ninja-build gperf \
   make gcc gcc-multilib g++-multilib libsdl2-dev libmagic1
 
 #install zephyr west tool
-sudo apt install python3-venv    #install python virtual environment
+sudo apt install -y python3-venv    #install python virtual environment
 pip install west
 
 #download and install zephyr sdk
