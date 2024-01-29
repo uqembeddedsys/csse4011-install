@@ -29,3 +29,4 @@ source $HOME/zephyr_install/env/bin/activate
 cd $HOME
 echo source $HOME/zephyr_install/env/bin/activate >> $HOME/.bashrc
 pip3 install west
+source $HOME/.bashrc
