@@ -30,3 +30,9 @@ cd $HOME
 echo source $HOME/zephyr_install/env/bin/activate >> $HOME/.bashrc
 pip3 install west
 source $HOME/.bashrc
+
+#install nrf command line tools
+wget https://nsscprodmedia.blob.core.windows.net/prod/software-and-other-downloads/desktop-software/nrf-command-line-tools/sw/versions-10-x-x/10-24-0/nrf-command-line-tools_10.24.0_amd64.deb -P $HOME/zephyr_install
+cd $HOME/zephyr_install
+sudo dpkg -i nrf-command-line-tools_10.24.0_amd64.deb
+sudo apt install /opt/nrf-command-line-tools/share/JLink_Linux_V794e_x86_64.deb --fix-broken
