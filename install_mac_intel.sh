@@ -1,6 +1,8 @@
 # Mac OSX INTEL CPU ONLY Installation for Zephyr RTOS
 # Based on zephyr install script
 
+brew install cmake ninja gperf python3 ccache qemu dtc libmagic
+
 #download and install zephyr sdk
 mkdir $HOME/zephyr_install
 wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.16.5/zephyr-sdk-0.16.5_macos-x86_64_minimal.tar.xz -P $HOME/zephyr_install
