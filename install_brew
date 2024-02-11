@@ -1,0 +1,7 @@
+# Installation files for install Brew
+# USE ONLY FOR Mac OSX
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
+
