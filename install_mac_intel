@@ -1,6 +1,5 @@
-# Mac OSX Installation for Zephyr RTOS
+# Mac OSX INTEL CPU ONLY Installation for Zephyr RTOS
 # Based on zephyr install script
-
 
 #download and install zephyr sdk
 mkdir $HOME/zephyr_install
