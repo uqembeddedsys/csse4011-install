@@ -1,7 +1,7 @@
 # Mac OSX ARM CPU ONLY Installation for Zephyr RTOS
 # Based on zephyr install script
 
-sudo xcode-select –-install
+sudo xcode-select --install
 
 brew install cmake ninja gperf python3 ccache qemu dtc libmagic
 
