@@ -36,3 +36,6 @@ wget https://nsscprodmedia.blob.core.windows.net/prod/software-and-other-downloa
 cd $HOME/zephyr_install
 sudo dpkg -i nrf-command-line-tools_10.24.0_amd64.deb
 sudo apt install /opt/nrf-command-line-tools/share/JLink_Linux_V794e_x86_64.deb --fix-broken
+
+#install openocd
+sudo apt install -y openocd
