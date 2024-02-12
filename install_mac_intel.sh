@@ -3,7 +3,7 @@
 
 sudo xcode-select --install
 
-brew install cmake ninja gperf python3 ccache qemu dtc libmagic
+brew install cmake ninja gperf python3 ccache qemu dtc libmagic openocd
 
 
 #download and install zephyr sdk
