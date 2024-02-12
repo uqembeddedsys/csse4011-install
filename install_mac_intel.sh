@@ -1,7 +1,7 @@
 # Mac OSX INTEL CPU ONLY Installation for Zephyr RTOS
 # Based on zephyr install script
 
-brew install cmake ninja gperf python3 ccache qemu dtc libmagic stlink
+brew install cmake ninja gperf python3 ccache qemu dtc libmagic
 
 
 #download and install zephyr sdk
