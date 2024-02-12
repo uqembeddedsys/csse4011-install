@@ -15,9 +15,9 @@ cd $HOME/zephyr_install
 python3 -m venv env
 source $HOME/zephyr_install/env/bin/activate
 cd $HOME
-echo source $HOME/zephyr_install/env/bin/activate >> $HOME/.bashrc
+echo source $HOME/zephyr_install/env/bin/activate >> $HOME/.zprofile
 pip3 install west
-source $HOME/.bashrc
+source $HOME/.zprofile
 
 #install nrf command line tools
 wget https://nsscprodmedia.blob.core.windows.net/prod/software-and-other-downloads/desktop-software/nrf-command-line-tools/sw/versions-10-x-x/10-24-0/nrf-command-line-tools-10.24.0-darwin.dmg -P $HOME/zephyr_install
