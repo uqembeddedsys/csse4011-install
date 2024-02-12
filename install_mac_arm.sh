@@ -11,7 +11,7 @@ mkdir $HOME/zephyr_install
 cd $HOME/zephyr_install && curl -L -O https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.16.5/zephyr-sdk-0.16.5_macos-aarch64_minimal.tar.xz
 tar xvf $HOME/zephyr_install/zephyr-sdk-0.16.5_macos-aarch64_minimal.tar.xz -C $HOME/zephyr_install
 rm $HOME/zephyr_install/zephyr-sdk-0.16.5_macos-aarch64_minimal.tar.xz
-$HOME/zephyr_install/zephyr-sdk-0.16.4/setup.sh -t arm-zephyr-eabi -h -c
+$HOME/zephyr_install/zephyr-sdk-0.16.5/setup.sh -t arm-zephyr-eabi -h -c
 
 #install zephyr west tool
 cd $HOME/zephyr_install
