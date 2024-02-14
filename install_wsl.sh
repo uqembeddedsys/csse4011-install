@@ -1,4 +1,4 @@
-# Linux Installation for Zephyr RTOS
+# WSL Installation for Zephyr RTOS
 # Based on zephyr install script
 
 sudo apt-get update
