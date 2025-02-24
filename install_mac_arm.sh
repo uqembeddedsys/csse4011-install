@@ -8,10 +8,10 @@ brew install cmake ninja gperf python3 ccache qemu dtc libmagic openocd wget
 
 #download and install zephyr sdk
 mkdir $HOME/zephyr_install
-cd $HOME/zephyr_install && curl -L -O https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.17/zephyr-sdk-0.17_macos-aarch64_minimal.tar.xz
-tar xvf $HOME/zephyr_install/zephyr-sdk-0.17_macos-aarch64_minimal.tar.xz -C $HOME/zephyr_install
-rm $HOME/zephyr_install/zephyr-sdk-0.17_macos-aarch64_minimal.tar.xz
-$HOME/zephyr_install/zephyr-sdk-0.17/setup.sh -t arm-zephyr-eabi -h -c
+cd $HOME/zephyr_install && curl -L -O https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.17.0/zephyr-sdk-0.17.0_macos-aarch64_minimal.tar.xz
+tar xvf $HOME/zephyr_install/zephyr-sdk-0.17.0_macos-aarch64_minimal.tar.xz -C $HOME/zephyr_install
+rm $HOME/zephyr_install/zephyr-sdk-0.17.0_macos-aarch64_minimal.tar.xz
+$HOME/zephyr_install/zephyr-sdk-0.17.0/setup.sh -t arm-zephyr-eabi -h -c
 
 #install zephyr west tool
 cd $HOME/zephyr_install
