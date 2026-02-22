@@ -27,7 +27,5 @@ source $HOME/.bashrc
 source $HOME/.profile
 
 #install nrf command line tools
-cd $HOME/zephyr_install && curl -L -O https://nsscprodmedia.blob.core.windows.net/prod/software-and-other-downloads/desktop-software/nrf-command-line-tools/sw/versions-10-x-x/10-24-0/nrf-command-line-tools-10.24.0-darwin.dmg
-cd $HOME/zephyr_install
-hdiutil mount nrf-command-line-tools-10.24.0-darwin.dmg
+brew install --cask nrfutil
 
